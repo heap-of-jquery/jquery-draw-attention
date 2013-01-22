@@ -32,7 +32,7 @@ Here I have selected some arbitrary elements (the headers in the left column and
 * transparent elements "pull up" their background color above the shade -- this may not be desirable if: 
   * 1. the background color is "close" to the shade color
   * 2. the background is actually an image (may just be lost).
-* - transparency is detected with rgba(0, 0, 0, 0) which is probably not the ideal way to do it. 
+* transparency is detected with rgba(0, 0, 0, 0) which is probably not the ideal way to do it. 
 
 ## License 
 
