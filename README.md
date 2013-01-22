@@ -22,7 +22,7 @@ style: "-moz-box-shadow: 0 0 11px #FFF;
 ```
 
 ## Screenshot
-[Example](http://i.imgur.com/2SU5wlX.png)
+![Example](http://i.imgur.com/2SU5wlX.png)
 
 ## Known Issues
 * uses z-index to move elements above the shade
