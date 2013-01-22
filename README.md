@@ -34,7 +34,9 @@ Here I have selected some arbitrary elements (the headers in the left column and
   * 2. the background is actually an image (may just be lost).
 * - transparency is detected with rgba(0, 0, 0, 0) which is probably not the ideal way to do it. 
 
-## License - you must retain this notice in ALL redistributions
+## License 
+
+Please retain this notice in ALL redistributions as well as a link back to the original repository.
 
 Copyright 2013 Giuseppe Burtini      https://github.com/gburtini
 
