@@ -110,13 +110,13 @@ limitations under the License.
 	};
 
 	$.fn.drawAttention = function(method) {		
-    	if ( methods[method] ) {
-      		return methods[ method ].apply( this, Array.prototype.slice.call( arguments, 1 ));
-    	} else if ( typeof method === 'object' || ! method ) {
-      		return methods.add.apply( this, arguments );
-    	} else {
-      		$.error( 'Method ' +  method + ' does not exist on jQuery.drawAttention' );
-    	}    
+	    	if ( methods[method] ) {
+      			return methods[ method ].apply( this, Array.prototype.slice.call( arguments, 1 ));
+	    	} else if ( typeof method === 'object' || ! method ) {
+      			return methods.add.apply( this, arguments );
+	    	} else {
+      			$.error( 'Method ' +  method + ' does not exist on jQuery.drawAttention' );
+	    	}    
   
 		return this;
 	}
