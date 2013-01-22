@@ -11,11 +11,11 @@
 The constructor ($.drawAttention) can take an object of parameters. Currently, these are, by default:
 
 ```javascript
-color: 'black',	# the color of the shade
-opacity: '0.6',	# the opacity of the shade
-shade: 'shade',	# the name of the shade
+color: 'black',	// the color of the shade
+opacity: '0.6',	// the opacity of the shade
+shade: 'shade',	// the name of the shade
 
-# the additional style to apply to the highlighted elements
+// the additional style to apply to the highlighted elements
 style: "-moz-box-shadow: 0 0 11px #FFF;
 	-webkit-box-shadow: 0 0 11px #FFF;
 	box-shadow: 0 0 11px #FFF;"
@@ -23,6 +23,8 @@ style: "-moz-box-shadow: 0 0 11px #FFF;
 
 ## Screenshot
 ![Example](http://i.imgur.com/2SU5wlX.png)
+
+Here I have selected some arbitrary elements (the headers in the left column and the listing for the game "Off-balance") to be highlighted while everything else remains under a 60% opacity shade.
 
 ## Known Issues
 * uses z-index to move elements above the shade
