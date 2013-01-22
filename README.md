@@ -6,6 +6,24 @@
 3. call $("selector").drawAttention("remove"); to remove from the highlighted elements
 4. call $.drawAttention("destroy"); to destroy the highlighting context and return to the regular page
 
+## Parameters
+
+The constructor ($.drawAttention) can take an object of parameters. Currently, these are, by default:
+
+```javascript
+color: 'black',	# the color of the shade
+opacity: '0.6',	# the opacity of the shade
+shade: 'shade',	# the name of the shade
+
+# the additional style to apply to the highlighted elements
+style: "-moz-box-shadow: 0 0 11px #FFF;
+	-webkit-box-shadow: 0 0 11px #FFF;
+	box-shadow: 0 0 11px #FFF;"
+```
+
+## Screenshot
+[Example](http://i.imgur.com/2SU5wlX.png)
+
 ## Known Issues
 * uses z-index to move elements above the shade
 * uses pointer-events to allow clicks to pass through the shade (may not be desired and has poor support: http://caniuse.com/pointer-events)
