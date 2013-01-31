@@ -91,14 +91,14 @@ limitations under the License.
 
 			$(this).each(function() {
 				$(this).removeClass("highlighted-element");
-					
-				if($(this).data("highlight").old['position'])
+				
+				if($(this).data("drawAttention").old['position'])
 				{
-					$(this).css("position", $(this).data("highlight").old['position']);
+					$(this).css("position", $(this).data("drawAttention").old['position']);
 				}
-				if($(this).data("highlight").old['background-color'])
+				if($(this).data("drawAttention").old['background-color'])
 				{
-					$(this).css("background-color", $(this).data("highlight").old['background-color']);
+					$(this).css("background-color", $(this).data("drawAttention").old['background-color']);
 				}
 			});	
 		},
